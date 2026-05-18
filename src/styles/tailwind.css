@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #096ebd;
+  --color-brand-light: #0a73c5;
+  --color-brand-dark: #0a75c8;
+  
+  --color-dark: #1e1e1e;
+  --color-text-main: rgba(0, 0, 0, 0.95);
+  --color-text-muted: rgba(0, 0, 0, 0.65);
+  --color-text-light: rgba(255, 255, 255, 0.9);
+  
+  --color-bg-gray: #f9f9f9;
+  --color-card-gray: #eee;
+  
+  --font-sans: 'MiSans', ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  @apply m-0 p-0 font-sans bg-white text-text-main antialiased;
+}
