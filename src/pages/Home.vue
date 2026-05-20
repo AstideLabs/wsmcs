@@ -168,12 +168,12 @@ const teamMembers = [
           立即加入 繁星之望
         </h2>
         <p class="text-white/80 font-medium text-[16px] mb-[12px]">
-          1.13-1.21.3 Java 版 / 最新基岩版
+          1.13.x-26.1.x Java 版 / 最新基岩版
         </p>
         <!-- The IP Box -->
         <div class="bg-white/80 backdrop-blur-sm rounded-[10px] w-full max-w-[348px] h-[47px] flex items-center justify-center shadow-sm mx-4 sm:mx-0">
           <span class="text-black font-medium text-[16px] sm:text-[20px]">
-            server.wsmcs.top
+            play.wsmcs.top
           </span>
         </div>
         <p class="text-white/80 text-[12px] mt-2">
