@@ -16,7 +16,7 @@ defineProps<{
     
     <!-- Content -->
     <div class="absolute left-8 bottom-8 flex flex-col gap-1.5 w-[calc(100%-64px)] max-w-[229px] z-10">
-      <h3 class="font-semibold text-white text-[24px] leading-[30px] whitespace-nowrap">
+      <h3 class="font-semibold text-white text-[24px] leading-[30px] break-words">
         {{ title }}
       </h3>
       <p class="font-medium text-white/90 text-[14px] leading-[18px]">

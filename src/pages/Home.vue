@@ -75,28 +75,25 @@ const teamMembers = [
 </script>
 
 <template>
-  <div class="w-full relative">
+  <div class="w-full relative overflow-x-hidden">
     
     <!-- Hero Section -->
-    <section class="relative h-[770px] w-full bg-black">
+    <section class="relative min-h-[770px] w-full bg-black flex flex-col">
       <img :src="heroBg" alt="Hero Background" class="absolute inset-0 w-full h-full object-cover pointer-events-none" />
       
       <div class="absolute inset-0 bg-black/10"></div> <!-- Slight overlay if needed -->
       
-      <div class="relative z-10 max-w-[1440px] mx-auto h-full w-full">
-        <!-- Content aligned to Figma specs: left-[90px] top-[243px] inside 1440px container -->
-        <div class="absolute left-6 md:left-[90px] top-[243px]">
-          <h1 class="text-white font-semibold text-[48px] md:text-[64px] leading-tight mb-[30px]">
-            繁星之望服务器
-          </h1>
-          <div class="text-white/65 font-medium text-[20px] md:text-[24px] leading-snug max-w-[546px] mb-[40px]">
-            <p>一个拥有诸多优点的 Minecraft 高性能养老服务器</p>
-            <p>时刻欢迎广大玩家加入。</p>
-          </div>
-          <div class="flex flex-wrap items-center gap-[17px]">
-            <Button variant="primary">加入QQ群</Button>
-            <Button variant="secondary">加入游戏</Button>
-          </div>
+      <div class="relative z-10 max-w-[1440px] mx-auto w-full px-6 md:px-[90px] pt-[150px] md:pt-[243px] pb-16">
+        <h1 class="text-white font-semibold text-[48px] md:text-[64px] leading-tight mb-[30px] break-words">
+          繁星之望服务器
+        </h1>
+        <div class="text-white/65 font-medium text-[20px] md:text-[24px] leading-snug max-w-[546px] mb-[40px] break-words">
+          <p>一个拥有诸多优点的 Minecraft 高性能养老服务器</p>
+          <p>时刻欢迎广大玩家加入。</p>
+        </div>
+        <div class="flex flex-wrap items-center gap-[17px]">
+          <Button variant="primary">加入QQ群</Button>
+          <Button variant="secondary">加入游戏</Button>
         </div>
       </div>
     </section>
@@ -163,20 +160,20 @@ const teamMembers = [
       <img :src="heroBg" alt="Join Background" class="absolute inset-0 w-full h-full object-cover pointer-events-none" />
       <div class="absolute inset-0 bg-black/36"></div>
       
-      <div class="relative z-10 flex flex-col items-center justify-center w-full max-w-[1440px] text-center">
-        <h2 class="text-white font-semibold text-[36px] mb-[12px]">
+      <div class="relative z-10 flex flex-col items-center justify-center w-full max-w-[1440px] text-center px-4">
+        <h2 class="text-white font-semibold text-[36px] mb-[12px] break-words">
           立即加入 繁星之望
         </h2>
-        <p class="text-white/80 font-medium text-[16px] mb-[12px]">
+        <p class="text-white/80 font-medium text-[16px] mb-[12px] break-words">
           1.13.x-26.1.x Java 版 / 最新基岩版
         </p>
         <!-- The IP Box -->
         <div class="bg-white/80 backdrop-blur-sm rounded-[10px] w-full max-w-[348px] h-[47px] flex items-center justify-center shadow-sm mx-4 sm:mx-0">
-          <span class="text-black font-medium text-[16px] sm:text-[20px]">
+          <span class="text-black font-medium text-[16px] sm:text-[20px] break-all px-2">
             play.wsmcs.top
           </span>
         </div>
-        <p class="text-white/80 text-[12px] mt-2">
+        <p class="text-white/80 text-[12px] mt-2 break-words">
           通过正版、LittleSkin、红石皮肤站进入服务器。
         </p>
       </div>

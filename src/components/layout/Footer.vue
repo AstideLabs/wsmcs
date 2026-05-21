@@ -21,7 +21,7 @@ const socialIcons = [
           <div class="w-[45px] h-[45px] mix-blend-multiply mb-2.5">
             <img :src="logoImg" alt="Logo" class="w-full h-full object-cover" />
           </div>
-          <p class="text-[20px] font-semibold text-[#0a75c8] whitespace-nowrap mb-[13px]">
+          <p class="text-[20px] font-semibold text-[#0a75c8] mb-[13px] break-words">
             繁星之望服务器
           </p>
           <div class="text-[14px] font-medium text-text-muted leading-normal">
