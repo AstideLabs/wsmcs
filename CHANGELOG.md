@@ -1,6 +1,14 @@
 # Changelog
 
-## Phase 1 Implementation (Current Session)
+## Responsive Layout Fixes
+
+- **Footer.vue**: Refactored to use Flexbox and CSS Grid, resolving text overlap and optimizing horizontal space usage on mobile.
+- **Home.vue**: Fixed horizontal overflow on extremely narrow viewports by replacing fixed widths with max-widths in the Join Banner.
+- **Navbar.vue**: Adjusted horizontal paddings to use responsive constraints (`px-4 md:px-11`) to prevent overflow on mobile.
+- **FeatureCard & TeamCard**: Removed `whitespace-nowrap` constraints, allowing text to properly wrap or truncate on narrow screens.
+- **Hero Section**: Converted the hero banner from absolute positioning with a fixed height to standard document flow with `min-h-[770px]`, preventing content from overflowing into the next section.
+
+## Phase 1 Implementation (Initial Setup)
 
 - **Project Initialization**: Scaffolded a new Vue 3 + TypeScript project using Vite (`pnpm`).
 - **Styling**: Installed and configured `@tailwindcss/vite` (Tailwind CSS v4). Extracted design tokens (colors, fonts, etc.) from the Figma design and defined them in `src/styles/tailwind.css` to eliminate magic numbers.
